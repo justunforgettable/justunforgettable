@@ -99,21 +99,7 @@ fill="freeze"/>
 
 </text>
 
-<text
-    x="850"
-    y="240"
-    fill="#22D3EE"
-    font-size="28">
 
-|
-
-<animate
-attributeName="opacity"
-values="1;0;1"
-dur="1s"
-repeatCount="indefinite"/>
-
-</text>
 
 
 </svg>
