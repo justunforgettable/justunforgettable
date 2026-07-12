@@ -26,4 +26,18 @@
     height="530"
     rx="30"
     fill="#0F172A"/>
+
+<defs>
+
+<radialGradient id="bg1">
+  <stop offset="0%" stop-color="#7C3AED"/>
+  <stop offset="100%" stop-color="#030712"/>
+</radialGradient>
+
+<radialGradient id="bg2">
+  <stop offset="0%" stop-color="#22D3EE"/>
+  <stop offset="100%" stop-color="#030712"/>
+</radialGradient>
+
+</defs>
 </svg>
