@@ -82,5 +82,38 @@ Hi 👋
 I'm Nahid Kausar
 
 </text>
+<text
+    x="550"
+    y="240"
+    fill="#22D3EE"
+    font-size="28"
+    font-family="Consolas">
+
+AI & ML Enthusiast
+
+<animate
+attributeName="opacity"
+values="0;1"
+dur="1s"
+fill="freeze"/>
+
+</text>
+
+<text
+    x="850"
+    y="240"
+    fill="#22D3EE"
+    font-size="28">
+
+|
+
+<animate
+attributeName="opacity"
+values="1;0;1"
+dur="1s"
+repeatCount="indefinite"/>
+
+</text>
+
 
 </svg>
