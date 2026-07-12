@@ -1,217 +1,264 @@
-<svg
-    width="1180"
-    height="610"
-    viewBox="0 0 1180 610"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg">
+<svg width="1180" height="610" viewBox="0 0 1180 610" xmlns="http://www.w3.org/2000/svg">
 
-<rect
-    width="1180"
-    height="610"
-    rx="35"
-    fill="#030712"/>
+  <defs>
 
-<rect
-    x="40"
-    y="40"
-    width="420"
-    height="530"
-    rx="30"
-    fill="#0F172A"/>
+    <!-- Background Gradients -->
+    <radialGradient id="bg1">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </radialGradient>
 
-<rect
-    x="500"
-    y="40"
-    width="640"
-    height="530"
-    rx="30"
-    fill="#0F172A"/>
+    <radialGradient id="bg2">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </radialGradient>
 
-<defs>
+    <!-- Accent Gradient -->
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="50%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
 
-<radialGradient id="bg1">
-  <stop offset="0%" stop-color="#7C3AED"/>
-  <stop offset="100%" stop-color="#030712"/>
-</radialGradient>
+    <!-- Glow -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
 
-<radialGradient id="bg2">
-  <stop offset="0%" stop-color="#22D3EE"/>
-  <stop offset="100%" stop-color="#030712"/>
-</radialGradient>
+  </defs>
 
-<filter id="glass">
+  <!-- Background -->
+  <rect width="1180" height="610" rx="35" fill="#030712"/>
 
-<feGaussianBlur
-    stdDeviation="10"/>
+  <circle
+      cx="200"
+      cy="120"
+      r="250"
+      fill="url(#bg1)"
+      opacity="0.25">
 
-</filter>
-</defs>
-<circle
-    cx="200"
-    cy="120"
-    r="250"
-    fill="url(#bg1)"
-    opacity="0.18"/>
+      <animate
+          attributeName="opacity"
+          values="0.15;0.3;0.15"
+          dur="6s"
+          repeatCount="indefinite"/>
+  </circle>
 
-<circle
-    cx="1000"
-    cy="500"
-    r="300"
-    fill="url(#bg2)"
-    opacity="0.12"/>
+  <circle
+      cx="1000"
+      cy="500"
+      r="300"
+      fill="url(#bg2)"
+      opacity="0.18">
 
-<text
-    x="550"
-    y="120"
-    fill="#F8FAFC"
-    font-size="34"
-    font-family="Segoe UI">
+      <animate
+          attributeName="opacity"
+          values="0.10;0.25;0.10"
+          dur="8s"
+          repeatCount="indefinite"/>
+  </circle>
 
-Hi 👋
+  <!-- Panels -->
+  <rect
+      x="40"
+      y="40"
+      width="420"
+      height="530"
+      rx="30"
+      fill="#0F172A"
+      fill-opacity="0.82"/>
 
-</text>
+  <rect
+      x="500"
+      y="40"
+      width="640"
+      height="530"
+      rx="30"
+      fill="#0F172A"
+      fill-opacity="0.82"/>
 
-<text
-    x="550"
-    y="175"
-    fill="#F8FAFC"
-    font-size="48"
-    font-family="Segoe UI"
-    font-weight="700">
+  <!-- Scanline -->
+  <rect
+      x="0"
+      y="-10"
+      width="1180"
+      height="6"
+      fill="#22D3EE"
+      opacity="0.08">
 
-I'm Nahid Kausar
+      <animate
+          attributeName="y"
+          values="-10;620"
+          dur="8s"
+          repeatCount="indefinite"/>
+  </rect>
 
-</text>
-<text
-    x="550"
-    y="240"
-    fill="#22D3EE"
-    font-size="28"
-    font-family="Consolas">
+  <!-- Floating ASCII -->
+  <g filter="url(#glow)">
 
-AI &amp; ML Enthusiast
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;0 -8;0 0"
+        dur="4s"
+        repeatCount="indefinite"/>
 
-<animate
-    attributeName="opacity"
-    values="0;1"
-    dur="1s"
-    fill="freeze"/>
+    <text
+        x="120"
+        y="200"
+        fill="url(#accent)"
+        font-size="26"
+        font-family="Consolas">
 
-</text>
+      /\_/\\
 
-<text
-    x="850"
-    y="240"
-    fill="#22D3EE"
-    font-size="28">
+    </text>
 
-|
+    <text
+        x="110"
+        y="250"
+        fill="url(#accent)"
+        font-size="26"
+        font-family="Consolas">
 
-<animate
-attributeName="opacity"
-values="1;0;1"
-dur="1s"
-repeatCount="indefinite"/>
+      ( o.o )
 
-</text>
-<text
-    x="550"
-    y="310"
-    fill="#94A3B8"
-    font-size="22">
+    </text>
 
-📍 Jharkhand, India
+    <text
+        x="135"
+        y="300"
+        fill="url(#accent)"
+        font-size="26"
+        font-family="Consolas">
 
-</text>
+      > ^ &lt;
 
-<text
-    x="550"
-    y="350"
-    fill="#94A3B8"
-    font-size="22">
+    </text>
 
-🎓 B.Tech CSE • UCET, VBU
+  </g>
 
-</text>
+  <!-- Greeting -->
+  <text
+      x="550"
+      y="120"
+      fill="#F8FAFC"
+      font-size="34"
+      font-family="Segoe UI">
 
-<text
-    x="550"
-    y="390"
-    fill="#94A3B8"
-    font-size="22">
+      Hi 👋
+  </text>
 
-🚀 Building AI Systems
+  <!-- Name -->
+  <text
+      x="550"
+      y="180"
+      fill="#F8FAFC"
+      font-size="46"
+      font-family="Segoe UI"
+      font-weight="700">
 
-</text>
+      I'm Nahid Kausar
+  </text>
 
-<text
-    x="550"
-    y="430"
-    fill="#94A3B8"
-    font-size="22">
+  <!-- Role -->
+  <text
+      x="550"
+      y="245"
+      fill="#22D3EE"
+      font-size="28"
+      font-family="Consolas">
 
-📧 your-nahid.kausar138@gmail.com.com
+      AI &amp; ML Enthusiast
+  </text>
 
-</text>
+  <!-- Cursor -->
+  <text
+      x="865"
+      y="245"
+      fill="#22D3EE"
+      font-size="28"
+      font-family="Consolas">
 
-<rect
-    x="550"
-    y="470"
-    width="110"
-    height="40"
-    rx="20"
-    fill="#1E293B"/>
+      |
 
-<text
-    x="580"
-    y="496"
-    fill="#F8FAFC"
-    font-size="18">
+      <animate
+          attributeName="opacity"
+          values="1;0;1"
+          dur="1s"
+          repeatCount="indefinite"/>
+  </text>
 
-Python
+  <!-- Information -->
+  <text
+      x="550"
+      y="320"
+      fill="#94A3B8"
+      font-size="22"
+      font-family="Segoe UI">
 
-</text>
+      📍 Jharkhand, India
+  </text>
 
-<g>
+  <text
+      x="550"
+      y="365"
+      fill="#94A3B8"
+      font-size="22"
+      font-family="Segoe UI">
 
-<animateTransform
-attributeName="transform"
-type="translate"
-values="0 0;0 -8;0 0"
-dur="4s"
-repeatCount="indefinite"/>
+      🎓 B.Tech CSE • UCET, VBU
+  </text>
 
-YOUR ASCII TEXT HERE
+  <text
+      x="550"
+      y="410"
+      fill="#94A3B8"
+      font-size="22"
+      font-family="Segoe UI">
 
-</g>
+      🚀 Deep Learning • Computer Vision • Generative AI
+  </text>
 
-<text
-    x="80"
-    y="170"
-    fill="#22D3EE"
-    font-size="13"
-    font-family="Consolas">
+  <text
+      x="550"
+      y="455"
+      fill="#94A3B8"
+      font-size="22"
+      font-family="Segoe UI">
 
-██████╗
-██╔══██╗
-██████╔╝
-██╔══██╗
-██████╔╝
+      📧 nahid.kausar138@gmail.com
+  </text>
 
-</text>
+  <!-- Skill Pills -->
+  <rect x="550" y="495" width="90" height="38" rx="19" fill="#1E293B"/>
+  <text x="570" y="520" fill="#F8FAFC" font-size="17">Python</text>
 
-<filter id="glow">
+  <rect x="650" y="495" width="120" height="38" rx="19" fill="#1E293B"/>
+  <text x="670" y="520" fill="#F8FAFC" font-size="17">TensorFlow</text>
 
-<feGaussianBlur
-stdDeviation="4"
-result="blur"/>
+  <rect x="785" y="495" width="90" height="38" rx="19" fill="#1E293B"/>
+  <text x="810" y="520" fill="#F8FAFC" font-size="17">OpenCV</text>
 
-<feMerge>
+  <rect x="890" y="495" width="70" height="38" rx="19" fill="#1E293B"/>
+  <text x="915" y="520" fill="#F8FAFC" font-size="17">Git</text>
 
-<feMergeNode in="blur"/>
-<feMergeNode in="SourceGraphic"/>
+  <rect x="975" y="495" width="110" height="38" rx="19" fill="#1E293B"/>
+  <text x="1000" y="520" fill="#F8FAFC" font-size="17">Streamlit</text>
 
-</feMerge>
+  <!-- Footer -->
+  <text
+      x="550"
+      y="555"
+      fill="#64748B"
+      font-size="18"
+      font-family="Segoe UI">
 
-</filter>
+      GitHub • LinkedIn • Portfolio
+  </text>
+
 </svg>
