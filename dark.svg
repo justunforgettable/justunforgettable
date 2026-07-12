@@ -39,8 +39,6 @@
   <stop offset="100%" stop-color="#030712"/>
 </radialGradient>
 
-</defs>
-
 <circle
     cx="200"
     cy="120"
@@ -54,4 +52,8 @@
     r="300"
     fill="url(#bg2)"
     opacity="0.12"/>
+
+</defs>
+
+
 </svg>
