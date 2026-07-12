@@ -1,1 +1,266 @@
+<svg width="1180" height="610" viewBox="0 0 1180 610" xmlns="http://www.w3.org/2000/svg">
 
+  <defs>
+
+    <!-- Background Gradients -->
+    <radialGradient id="bg1">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </radialGradient>
+
+    <radialGradient id="bg2">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </radialGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="50%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+
+    <!-- Glow -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <!-- Background -->
+  <rect width="1180" height="610" rx="35" fill="#FFFFFF"/>
+
+  <circle
+      cx="200"
+      cy="120"
+      r="250"
+      fill="url(#bg1)"
+      opacity="0.12">
+
+      <animate
+          attributeName="opacity"
+          values="0.08;0.18;0.08"
+          dur="6s"
+          repeatCount="indefinite"/>
+  </circle>
+
+  <circle
+      cx="1000"
+      cy="500"
+      r="300"
+      fill="url(#bg2)"
+      opacity="0.10">
+
+      <animate
+          attributeName="opacity"
+          values="0.05;0.15;0.05"
+          dur="8s"
+          repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Panels -->
+  <rect
+      x="40"
+      y="40"
+      width="420"
+      height="530"
+      rx="30"
+      fill="#F8FAFC"
+      stroke="#E2E8F0"
+      stroke-width="2"/>
+
+  <rect
+      x="500"
+      y="40"
+      width="640"
+      height="530"
+      rx="30"
+      fill="#F8FAFC"
+      stroke="#E2E8F0"
+      stroke-width="2"/>
+
+  <!-- Scanline -->
+  <rect
+      x="0"
+      y="-10"
+      width="1180"
+      height="6"
+      fill="#06B6D4"
+      opacity="0.05">
+
+      <animate
+          attributeName="y"
+          values="-10;620"
+          dur="8s"
+          repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Floating ASCII -->
+  <g filter="url(#glow)">
+
+    <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;0 -8;0 0"
+        dur="4s"
+        repeatCount="indefinite"/>
+
+    <text
+        x="120"
+        y="200"
+        fill="url(#accent)"
+        font-size="26"
+        font-family="Consolas">
+
+      /\_/\\
+
+    </text>
+
+    <text
+        x="110"
+        y="250"
+        fill="url(#accent)"
+        font-size="26"
+        font-family="Consolas">
+
+      ( o.o )
+
+    </text>
+
+    <text
+        x="135"
+        y="300"
+        fill="url(#accent)"
+        font-size="26"
+        font-family="Consolas">
+
+      > ^ &lt;
+
+    </text>
+
+  </g>
+
+  <!-- Greeting -->
+  <text
+      x="550"
+      y="120"
+      fill="#0F172A"
+      font-size="34"
+      font-family="Segoe UI">
+
+      Hi 👋
+  </text>
+
+  <!-- Name -->
+  <text
+      x="550"
+      y="180"
+      fill="#0F172A"
+      font-size="46"
+      font-family="Segoe UI"
+      font-weight="700">
+
+      I'm Nahid Kausar
+  </text>
+
+  <!-- Role -->
+  <text
+      x="550"
+      y="245"
+      fill="#2563EB"
+      font-size="28"
+      font-family="Consolas">
+
+      AI &amp; ML Enthusiast
+  </text>
+
+  <!-- Cursor -->
+  <text
+      x="865"
+      y="245"
+      fill="#2563EB"
+      font-size="28"
+      font-family="Consolas">
+
+      |
+
+      <animate
+          attributeName="opacity"
+          values="1;0;1"
+          dur="1s"
+          repeatCount="indefinite"/>
+  </text>
+
+  <!-- Information -->
+  <text
+      x="550"
+      y="320"
+      fill="#475569"
+      font-size="22"
+      font-family="Segoe UI">
+
+      📍 Jharkhand, India
+  </text>
+
+  <text
+      x="550"
+      y="365"
+      fill="#475569"
+      font-size="22"
+      font-family="Segoe UI">
+
+      🎓 B.Tech CSE • UCET, VBU
+  </text>
+
+  <text
+      x="550"
+      y="410"
+      fill="#475569"
+      font-size="22"
+      font-family="Segoe UI">
+
+      🚀 Deep Learning • Computer Vision • Generative AI
+  </text>
+
+  <text
+      x="550"
+      y="455"
+      fill="#475569"
+      font-size="22"
+      font-family="Segoe UI">
+
+      📧 nahid.kausar138@gmail.com
+  </text>
+
+  <!-- Skill Pills -->
+  <rect x="550" y="495" width="90" height="38" rx="19" fill="#E2E8F0"/>
+  <text x="570" y="520" fill="#0F172A" font-size="17">Python</text>
+
+  <rect x="650" y="495" width="120" height="38" rx="19" fill="#E2E8F0"/>
+  <text x="670" y="520" fill="#0F172A" font-size="17">TensorFlow</text>
+
+  <rect x="785" y="495" width="90" height="38" rx="19" fill="#E2E8F0"/>
+  <text x="810" y="520" fill="#0F172A" font-size="17">OpenCV</text>
+
+  <rect x="890" y="495" width="70" height="38" rx="19" fill="#E2E8F0"/>
+  <text x="915" y="520" fill="#0F172A" font-size="17">Git</text>
+
+  <rect x="975" y="495" width="110" height="38" rx="19" fill="#E2E8F0"/>
+  <text x="1000" y="520" fill="#0F172A" font-size="17">Streamlit</text>
+
+  <!-- Footer -->
+  <text
+      x="550"
+      y="555"
+      fill="#64748B"
+      font-size="18"
+      font-family="Segoe UI">
+
+      GitHub • LinkedIn • Portfolio
+  </text>
+
+</svg>
