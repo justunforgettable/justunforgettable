@@ -60,5 +60,27 @@
     fill="url(#bg2)"
     opacity="0.12"/>
 
+<text
+    x="550"
+    y="120"
+    fill="#F8FAFC"
+    font-size="34"
+    font-family="Segoe UI">
+
+Hi 👋
+
+</text>
+
+<text
+    x="550"
+    y="175"
+    fill="#F8FAFC"
+    font-size="48"
+    font-family="Segoe UI"
+    font-weight="700">
+
+I'm Nahid Kausar
+
+</text>
 
 </svg>
