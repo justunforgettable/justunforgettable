@@ -11,4 +11,19 @@
     rx="35"
     fill="#030712"/>
 
+<rect
+    x="40"
+    y="40"
+    width="420"
+    height="530"
+    rx="30"
+    fill="#0F172A"/>
+
+<rect
+    x="500"
+    y="40"
+    width="640"
+    height="530"
+    rx="30"
+    fill="#0F172A"/>
 </svg>
