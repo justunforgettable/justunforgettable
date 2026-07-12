@@ -250,21 +250,6 @@
   <rect x="975" y="495" width="110" height="38" rx="19" fill="#1E293B"/>
   <text x="1000" y="520" fill="#F8FAFC" font-size="17">Streamlit</text>
 
-  <rect x="550" y="520" width="95" height="38" rx="19" fill="#1E293B"/>
-<text x="570" y="545" fill="#F8FAFC" font-size="16">Pandas</text>
-
-<rect x="660" y="520" width="130" height="38" rx="19" fill="#1E293B"/>
-<text x="675" y="545" fill="#F8FAFC" font-size="16">Matplotlib</text>
-
-<rect x="805" y="520" width="70" height="38" rx="19" fill="#1E293B"/>
-<text x="830" y="545" fill="#F8FAFC" font-size="16">Seaborn</text>
-
-<rect x="890" y="520" width="100" height="38" rx="19" fill="#1E293B"/>
-<text x="910" y="545" fill="#F8FAFC" font-size="16">Google Colab</text>
-
-<rect x="1005" y="520" width="90" height="38" rx="19" fill="#1E293B"/>
-<text x="1025" y="545" fill="#F8FAFC" font-size="16">GitHub</text>
-
   <!-- Footer -->
   <text
       x="550"
