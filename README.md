@@ -20,7 +20,7 @@ AI & ML Enthusiast • Deep Learning Developer • Computer Vision Learner
 
 <p align="center">
 <a href="https://github.com/justunforgettable">GitHub</a> •
-<a href="https://www.linkedin.com/in/YOUR_LINKEDIN/">LinkedIn</a> •
+<a href="www.linkedin.com/in/nahid-kausar-3594b7295">LinkedIn</a> •
 <a href="mailto:nahid.kausar138@gmail.com">Email</a>
 </p>
 
