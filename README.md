@@ -1,16 +1,47 @@
-## Hi there 👋
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./light.svg">
+    <img alt="GitHub Profile Banner" src="./dark.svg" width="100%">
+  </picture>
+</p>
 
-<!--
-**justunforgettable/justunforgettable** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Hi 👋 I'm Nahid Kausar
 
-Here are some ideas to get you started:
+B.Tech Computer Science Engineering Student  
+Machine Learning & Deep Learning Enthusiast  
+Frontend Developer
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## Technologies
+
+### 🤖 Machine Learning & Deep Learning
+- Python
+- TensorFlow
+- Keras
+- NumPy
+- Pandas
+- OpenCV
+- Scikit-learn
+- Matplotlib
+- Pillow (PIL)
+
+### 🌐 Frontend & Web Application
+- Streamlit
+- HTML5
+- CSS3
+- JavaScript
+
+### 📊 Data Handling & Visualization
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+### 🔧 Development Tools
+- Google Colab
+- Jupyter Notebook
+- Git
+- GitHub
+- VS Code
