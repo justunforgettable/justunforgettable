@@ -166,15 +166,32 @@
   </text>
 
   <!-- Role -->
-  <text
-      x="550"
-      y="245"
-      fill="#22D3EE"
-      font-size="28"
-      font-family="Consolas">
+<text
+    x="550"
+    y="245"
+    fill="#22D3EE"
+    font-size="28"
+    font-family="Consolas">
+    AI &amp; ML Enthusiast
+</text>
 
-      AI &amp; ML Enthusiast • Deep Learning Developer • Computer Vision Learner
-  </text>
+<text
+    x="550"
+    y="280"
+    fill="#A78BFA"
+    font-size="22"
+    font-family="Consolas">
+    Deep Learning Developer
+</text>
+
+<text
+    x="550"
+    y="315"
+    fill="#10B981"
+    font-size="22"
+    font-family="Consolas">
+    Computer Vision Learner
+</text>
 
   <!-- Cursor -->
   <text
